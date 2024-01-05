@@ -1,0 +1,198 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./image/paper-plane.svg"
+      type="image/x-icon"
+    />
+    <title>TravelLog</title>
+  </head>
+  <body>
+    <header id="home">
+      <nav>
+        <div class="logo">
+          <ion-icon size="large" name="paper-plane"></ion-icon>
+          <h2>TravelLog</h2>
+        </div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+        <button class="signup">Sign Up</button>
+      </nav>
+      <section class="head-text">
+        <div>
+          <h2>Explore the world with Us.</h2>
+          <p>
+            "Travel makes one modest, you see what a tiny place you occupy in
+            the world."<br />- Gustave Flaubert
+          </p>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <div id="gallery"></div>
+      <section class="gallery-con">
+        <h1>Gallery</h1>
+        <section class="gallery">
+          <div class="destination">
+            <div class="dest-img">
+              <img src="https://www.planetware.com/wpimages/2021/10/best-tropical-vacations-maldives.jpg" alt="" />
+            </div>
+            <h3>Maldives</h3>
+            <p>
+                Strung across the Indian Ocean southwest of India and Sri Lanka, the 26 natural atolls of the Maldives exude an almost surreal beauty. This is due, in large part, to the luminous blue waters that surround them. If slipping into the crystal-clear, soul-warming sea is a top criteria for your perfect tropical vacation, this is the place to do it – water comprises 99 percent of the Maldives. Paradoxically, it also threatens to inundate the shores of this low-lying island nation.
+            </p>
+            <button class="learn">Learn More</button>
+          </div>
+          <div class="destination">
+            <div class="dest-img">
+              <img src="https://www.planetware.com/wpimages/2023/09/best-tropical-vacations-philippines-palawan-beach-2.jpg" alt="" />
+            </div>
+            <h3>Palawan</h3>
+            <p>
+                The incredible area surrounding Bacuit Bay near El Nido is home to some of the most beautiful beaches in the Philippines with bathtub-warm waters so shallow that you can walk out a hundred meters and only be up to your waist. Off in the distance are islands, some of the most famous being Cadlao, Helicopter, and Shimizu. Each island hides an enchanting secret—be it a hidden lagoon, a secret beach, or an underwater paradise full of neon-colored fish.
+            </p>
+            <button class="learn">Learn More</button>
+          </div>
+          <div class="destination">
+            <div class="dest-img">
+              <img src="https://www.planetware.com/photos-large/SEY/best-tropical-vacations-riviera-maya.jpg" alt="" />
+            </div>
+            <h3>Riviera</h3>
+            <p>
+                Wondering about the best tropical vacations on a budget? If you're looking for beautiful beaches, culture, and zesty cuisine all wrapped up with an affordable price tag, the Riviera Maya (Mayan Riviera) in Mexico is a great choice. On the tip of the Yucatán peninsula, along the Caribbean coast, the Mayan Riviera encompasses the resort destinations of Cancún, Playa del Carmen, and the island of Cozumel.
+            </p>
+            <button class="learn">Learn More</button>
+          </div>
+          <div class="destination">
+            <div class="dest-img">
+              <img src="https://www.planetware.com/photos-large/SEY/best-tropical-vacations-bora-bora.jpg" alt="" />
+            </div>
+            <h3>Bora Bora</h3>
+            <p>
+                Bora Bora is the quintessential South Pacific paradise. This lush and dramatically beautiful island in French Polynesia rises to a sharp emerald peak ringed by an azure lagoon. Clusters of coconut palms bristle along the beaches, and luxury bungalows perch over the crystal-clear waters, some with glass floor panels, so you can peer into the thriving sea below.
+            </p>
+            <button class="learn">Learn More</button>
+          </div>
+          <div class="destination">
+            <div class="dest-img">
+              <img src="https://www.planetware.com/photos-large/SEY/best-tropical-vacations-mamanuca-islands.jpg" alt="" />
+            </div>
+            <h3>The Mamanuca Island</h3>
+            <p>
+                If you're dreaming of an idyllic South Seas island bathed in sunshine, the Mamanuca Islands in Fiji fit the bill. A short boat ride from the gateway town of Nadi, this picture-perfect string of about 20 islands is popular for its gleaming palm-studded beaches, crystal-clear waters, and thriving coral reefs.
+            </p>
+            <button class="learn">Learn More</button>
+          </div>
+          <div class="destination">
+            <div class="dest-img">
+              <img src="https://www.planetware.com/photos-large/SEY/best-tropical-vacations-st-barts.jpg" alt="" />
+            </div>
+            <h3>St.Bart </h3>
+            <p>
+            St <strong>Bart</strong> is located in Carribbean, Like everywhere, low season offers great deals. Plus, all the beaches are public, so you can hide away in a private villa or boutique hotel and live the life of the rich and famous for less. Besides basking on the beaches, shopping, and feasting on mouthwatering continental delicacies, other popular things to do in St. Barts include snorkeling, diving, kitesurfing, kayaking, fishing, surfing, and sailing.
+            The top beaches are Saline Beach, Gouverneur Beach, and Lorient, and the red-roofed capital of Gustavia is one of the prettiest towns in the Caribbean.
+            <button class="learn">Learn More</button>
+          </div>
+        </section>
+      </section>
+
+      <div id="blog"></div>
+      <section class="blog-con">
+        <h1>Blog</h1>
+        <p>Please register to recieve our bi-weekly newsletter.</p>
+        <form action="">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Full Name"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email Address"
+            required
+          />
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="5"
+            placeholder="Anything you want us to know.."
+          ></textarea>
+          <button type="submit" class="submit">Submit</button>
+        </form>
+      </section>
+
+      <div id="contacts"></div>
+      <section class="contact-con">
+        <h1>Contacts</h1>
+        <p>You can contact us through any of the means below</p>
+        <div class="icons">
+          <p>
+            <ion-icon name="home"></ion-icon> Fintel Tech Building, 12
+            Maringue Estate, Tech State, Earth.
+          </p>
+          <p><ion-icon name="mail"></ion-icon> info@travellog.com</p>
+          <p><ion-icon name="call"></ion-icon> +44 081 1209 242</p>
+          <p><ion-icon name="logo-facebook"></ion-icon> Travel-Log</p>
+          <p><ion-icon name="logo-twitter"></ion-icon> @TravelLog</p>
+          <p><ion-icon name="logo-linkedin"></ion-icon> TravelLog</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact Us</h3>
+        <ul>
+          <li>info@travellog.com</li>
+          <li>+44 081 1209 242</li>
+          <li>
+            <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="name">
+          <ion-icon size="large" name="paper-plane"></ion-icon> TravelLog
+        </h3>
+        <ul>
+          <li><span>&copy</span> Copyright 2023</li>
+          <li>Fintel Tech, Inc.</li>
+          <li>All rights reserved</li>
+        </ul>
+      </div>
+     
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
